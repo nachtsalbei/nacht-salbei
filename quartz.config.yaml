@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: nachtsalbei
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: nachtsalbei.github.io/quartz
+  baseUrl: nachtsalbei.github.io/nacht-salbei
   ignorePatterns:
     - private
     - templates
@@ -31,7 +31,7 @@ configuration:
         highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#fff23688"
       darkMode:
-        light: "#161618"
+        light: "#2e5266"
         lightgray: "#393639"
         gray: "#646464"
         darkgray: "#d4d4d4"
