@@ -8,7 +8,7 @@ genre:
 pages: "208"
 year: 1922
 rating: 7
-last: 2025-10-11
+created: 2025-10-11
 tags:
   - purpose
 ---

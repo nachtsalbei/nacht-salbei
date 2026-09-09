@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: nachtsalbei
+  pageTitle: garden of babble
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -16,8 +16,13 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
+      header:
+        name: Alegreya
+        weights: [500]
+      body:
+        name: DM Sans
+        weights: [400, 600, 700]
+        includeItalic: true
       code: IBM Plex Mono
     colors:
       lightMode:
@@ -31,8 +36,8 @@ configuration:
         highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#fff23688"
       darkMode:
-        light: "#2e5266"
-        lightgray: "#393639"
+        light: "#13293D"
+        lightgray: "#E8F1F2"
         gray: "#646464"
         darkgray: "#d4d4d4"
         dark: "#ebebec"
@@ -181,7 +186,7 @@ plugins:
       position: beforeBody
       priority: 20
   - source: "@quartz-community/tag-list"
-    enabled: false
+    enabled: true
     layout:
       position: beforeBody
       priority: 30
@@ -227,6 +232,9 @@ plugins:
       priority: 50
   - source: "@quartz-community/recent-notes"
     enabled: true
+    layout:
+      position: left
+      priority: 100
   - source: "@quartz-community/spacer"
     enabled: true
     options: {}
@@ -248,7 +256,7 @@ plugins:
         - tags
         - aliases
       excludedProperties: []
-      hidePropertiesView: false
+      hidePropertiesView: true
       delimiters: ---
       language: yaml
     order: 5
