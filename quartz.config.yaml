@@ -105,6 +105,18 @@ plugins:
     order: 92
   - source: "@quartz-community/quartz-fonts"
     enabled: true
+    options:
+      fontOrigin: googleFonts
+      header:
+        name: Alegreya
+        weights: [600]
+      body:
+        name: DM Sans
+        weights: [400, 600, 700]
+        includeItalic: true
+      code:
+        name: DM Mono
+        weights: [400]
   - source: "@quartz-themes/core"
     enabled: false
     options:
