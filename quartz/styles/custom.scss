@@ -1,3 +1,54 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+.explorer {
+  h2 {
+    font-size: 1.3rem;
+    line-height: 1;
+  }
+  &.collapsed {
+    flex: 0 0 1.7rem !important;
+  }
+  .folder-title {
+    font-size: 1.1rem;
+  }
+  .folder-outer .folder-outer .folder-title {
+    font-size: 1rem;
+  }
+  .explorer-content {
+    font-size: 0.9rem;
+  }
+  .nav-file-title {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 500;
+  }
+}
+
+.graph h3,
+.recent-notes > h3,
+.toc-header h3 {
+  font-size: 1.3rem;
+}
+
+.recent-notes {
+  .recent-ul {
+    font-size: 0.9rem;
+  }
+  .recent-li {
+    font-size: 0.9rem;
+  }
+}
+
+article a,
+article a.internal {
+  text-decoration: underline;
+  text-decoration-color: var(--tertiary);
+}
+
+body[data-slug="index"] .content-meta {
+  display: none;
+}
