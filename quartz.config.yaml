@@ -106,7 +106,7 @@ plugins:
         name: Alegreya
         weights: [400]
       body:
-        name: Cabin
+        name: Ubuntu
         weights: [400, 600, 700]
         includeItalic: true
       code:

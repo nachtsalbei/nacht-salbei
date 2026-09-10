@@ -1,3 +1,6 @@
+---
+created: 2026-09-09
+---
 ## Definition
 Determinism is the philosophical and scientific idea that every event, action, and choice is the inevitable result of preceding events and the laws of nature. It assumes that if an observer has sufficient information about an object or human being, then such an observer might be able to predict every consequent move of that object or human being.
 
