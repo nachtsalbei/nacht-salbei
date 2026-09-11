@@ -1,7 +1,7 @@
 ---
 created: 2026-09-02
 ---
-![[aguirre.webp]]
+![[aguirre-compressed.webp]]
 
 Should a film be judged solely on its merits, or is the context surrounding its production important to consider as well? In this case, I believe Werner Herzog's achievement in crafting *Aguirre, the Wrath of God* warrants the latter. 
 
