@@ -5,7 +5,8 @@ configuration:
   enableSPA: true
   enablePopovers: true
   analytics:
-    provider: plausible
+    provider: google
+    tagId: G-LSMS5MVLE8
   locale: en-US
   baseUrl: nachtsalbei.github.io/nacht-salbei
   ignorePatterns:
@@ -106,7 +107,7 @@ plugins:
         name: Alegreya
         weights: [400]
       body:
-        name: Ubuntu
+        name: Huninn
         weights: [400, 600, 700]
         includeItalic: true
       code:
