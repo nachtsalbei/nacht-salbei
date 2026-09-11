@@ -178,7 +178,7 @@ plugins:
       groupOptions:
         grow: true
   - source: "@quartz-community/backlinks"
-    enabled: true
+    enabled: false
     layout:
       position: right
       priority: 50
@@ -240,7 +240,7 @@ plugins:
   - source: "@quartz-community/recent-notes"
     enabled: true
     layout:
-      position: left
+      position: right
       priority: 100
   - source: "@quartz-community/spacer"
     enabled: true
